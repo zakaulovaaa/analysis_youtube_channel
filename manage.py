@@ -1,6 +1,3 @@
-import requests
-import json
-import datetime
 import csv
 from YoutubeAPI import YoutubeAPI
 
