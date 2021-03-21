@@ -15,13 +15,26 @@
   * Продолжительность видео в секундах
 
 
-Для работы программы необходимо сгенерировать ключ API (тут https://console.cloud.google.com/apis/credentials), на одном уровне с manage.py создать файл apikey.txt и вписать в него полученный ключ.
+Для работы программы необходимо:
 
-Установить необходимые для работы библиотеки
-        
+1. Склонировать репозиторий
+
+2. Сгенерировать ключ API (тут https://console.cloud.google.com/apis/credentials)
+
+3. На одном уровне с manage.py создать файл apikey.txt и вписать в него полученный на предыдущем шаге ключ
+
+4. Установить и запустить виртуальную среду:
+
+        pip3 install virtualenv
+        python3 -m venv env
+        source env/bin/activate
+
+        (подробнее https://python-scripts.com/virtualenv )
+
+5. Установить окружение: 
+
         pip3 install -r requirements.txt
-        
-Запустить
+
+5. Запустить: 
 
         python3 manage.py
-
